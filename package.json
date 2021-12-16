@@ -3,14 +3,14 @@
     "languages": [
       {
         "id": "simplfi",
-        "extensions": [".lfi"]
+        "extensions": [".lfi", ".sjs"]
       }
     ],
     "grammars": [
       {
-        "language": "abc",
-        "scopeName": "source.abc",
-        "path": "./syntaxes/lfi.tmGrammar.json"
+        "language": "simplfi",
+        "scopeName": "source.lfi",
+        "path": "./syntaxes/lfi.tm.abc"
       }
     ]
   }
